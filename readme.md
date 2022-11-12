@@ -223,3 +223,33 @@ Selanjutnya setelah membuat reducer pada sebuah file lain, kita kembali ke index
 *Gambar 28. Reducer to Store*
 
 Setelah reducer, apabila kita lihat pada gambar 27, terdapat "action" dimana ini adalah sebuah aksi yang akan digunakan untuk penggunaan conditional switch tersebut. 
+
+Selanjutnya kita perlu membuat provider untuk menyambungkan aplikasi utama kita pada app.js dengan store
+
+![Gambar 29](./1%20Lanjutan/Provider.png)
+
+*Gambar 29. Provider pada main.js*
+
+Kemudian, kita ingin menambahkan sebuah action pada reducer yang sudah dibuat, dengan cara seperti berikut
+
+![Gambar 30](./1%20Lanjutan/increment.png)
+
+*Gambar 30. Membuat Increment*
+
+Membuat increment yang isinya seperti pada gambar 30, disini akan dibuatkan sebuah action pada reducer seperti pada gambar 31
+
+![Gambar 31](./1%20Lanjutan/increment2.png)
+
+*Gambar 31. Action Reducer*
+
+Selanjutnya terdapat useDispatch, dispatch memiliki fungsi untuk menggunakan sebuah Action dari store yang dibuat, digunakan pada sebuah komponen atau sebuah halaman
+
+![Gambar 32](./1%20Lanjutan/Dispatch.png)
+
+*Gambar 32. Dispatch*
+
+Sehingga hasilnya dapat dilihat dari keranjang total bertambah sesuai dengan incrementnya
+
+![Gambar 33](./1%20Lanjutan/Result%20Redux.png)
+
+*Gambar 33. Result Redux*
